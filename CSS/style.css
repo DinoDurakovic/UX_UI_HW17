@@ -1,0 +1,172 @@
+
+
+#navBar {
+    border-bottom:solid #30391A;
+    display:flex ;
+    flex-direction: row;
+    margin: 0px 2%;
+    justify-content: space-between;
+  }
+  
+  
+  #navigation {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #navBar h1 {
+    width:100%;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .contact {
+    background: #30391A;
+    color:white;
+    padding: 15px 35px;
+  }
+  
+  .navItem {
+    padding: 15px 35px;
+  }
+  
+  .heroImg {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 2% 10%;
+    height: 650px;
+    justify-content: space-around;
+  }
+  .dobarDan {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    font-size: 22px
+  }
+  
+  #profile {
+    height: 350px
+  }
+  
+  .aboutMe {
+    display:flex;
+    flex-direction:column;
+    width:55%;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  .expert {
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .resume {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  button {
+    background:black;
+    color:white;
+    display:block;
+    width: 50%;
+    height:50px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration:underline;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .download {
+    display:flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 10%;
+    font-size:24px;
+    text-shadow: 2px 2px 5px #30391A;
+  }
+  
+  h2 {
+    font-size:48px
+  }
+  
+  .skills {
+    font-size:20px;
+    text-decoration:underline;
+  }
+
+  .headLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #fContainer {
+    width:100%;
+    display:grid;
+    grid-template-columns:50% 50%;
+    background-color: #30391A;
+    height: auto;
+  }
+
+  .logo {
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footerNav {
+  grid-column-start:2;
+  display:flex;
+  flex-direction: column;
+  align-items: end;
+  padding:20px;
+}
+
+.footerInfo {
+  display:flex;
+  flex-direction: column;
+  grid-column-start:1;
+  grid-row-start:1;
+  padding-left:20px;
+  justify-content: space-between;
+  padding-bottom:10px;
+  
+  
+}
+
+.footerInfo p {
+  font-size:22px;
+}
+
+.footerInfo h1 {
+  font-size:40px;
+}
