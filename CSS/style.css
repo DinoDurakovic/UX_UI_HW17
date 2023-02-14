@@ -235,3 +235,43 @@
 #hi {
   height: 500px;
 }
+
+.project2 {
+  display:grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows: auto;
+  column-gap:0;
+  grid-template-areas:
+    "top top top"
+    "bottom bottom bottom";
+}
+
+.projectImg2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:solid red;
+  height: 500px;
+  margin:2% 2% 0% 2%;
+  grid-area:top;
+}
+
+.project3 {
+  display:grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows: auto;
+  column-gap:0;
+  grid-template-areas:
+    "top top top"
+    "bottom bottom bottom";
+}
+
+.projectImg3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:solid red;
+  height: 500px;
+  margin:2% 2% 0% 2%;
+  grid-area:top;
+}
